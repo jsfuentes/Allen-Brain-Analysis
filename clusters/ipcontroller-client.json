@@ -1,0 +1,16 @@
+{
+  "control": 59864, 
+  "task": 59870, 
+  "notification": 59874, 
+  "task_scheme": "leastload", 
+  "mux": 59866, 
+  "iopub": 59872, 
+  "ssh": "", 
+  "key": "cf1f0cbe-af8869f59c372dcaff8eca23", 
+  "registration": 59859, 
+  "interface": "tcp://*", 
+  "signature_scheme": "hmac-sha256", 
+  "pack": "json", 
+  "unpack": "json", 
+  "location": "10.44.117.124"
+}
