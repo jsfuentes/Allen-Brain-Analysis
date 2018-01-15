@@ -1,0 +1,11 @@
+imageio
+jupyter
+matplotlib
+numpy
+pandas
+scipy
+tqdm
+xlwt
+xlrd
+mpld3
+scikit-image

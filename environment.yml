@@ -1,42 +1,20 @@
-name: brainLab
+name: testLab
 channels:
-- defaults
+  - defaults
 dependencies:
-- ipykernel
-- ipython
-- ipython_genutils
-- jupyter
-- jupyter_client
-- jupyter_console
-- jupyter_core
-- nbconvert
-- nbformat
-- pandoc
-- pandocfilters
-- pickleshare
-- pip
-- python=3
-- python-dateutil
-- pip:
-  - attrs
+  - python>=3.6
   - imageio
+  - jupyter 
   - matplotlib
-  - mpld3
-  - networkx
   - numpy
-  - olefile
   - pandas
-  - pillow
-  - pluggy
-  - prompt-toolkit
-  - py
-  - pyparsing
-  - pytest
-  - pytz
-  - pywavelets
-  - scikit-image
   - scipy
   - tqdm
-  - xlrd
   - xlwt
-prefix: /anaconda2/envs/brainLab
+  - xlrd
+  - pip:
+    - mpld3
+    - os
+    - skimage
+    - sys
+
